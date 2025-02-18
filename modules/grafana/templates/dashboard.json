@@ -15,7 +15,6 @@
       }
     ]
   },
-  "description": "Back2Basics: Amazon EKS Series by Romar Cablao",
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
@@ -65,9 +64,7 @@
         "namePlacement": "auto",
         "orientation": "auto",
         "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
+          "calcs": ["lastNotNull"],
           "fields": "",
           "values": false
         },
@@ -124,9 +121,7 @@
         "justifyMode": "auto",
         "orientation": "auto",
         "reduceOptions": {
-          "calcs": [
-            "last"
-          ],
+          "calcs": ["last"],
           "fields": "",
           "values": false
         },
@@ -299,9 +294,7 @@
         "justifyMode": "auto",
         "orientation": "auto",
         "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
+          "calcs": ["lastNotNull"],
           "fields": "",
           "values": false
         },
@@ -669,9 +662,7 @@
         "justifyMode": "auto",
         "orientation": "auto",
         "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
+          "calcs": ["lastNotNull"],
           "fields": "",
           "values": false
         },
@@ -1039,9 +1030,7 @@
         "justifyMode": "auto",
         "orientation": "auto",
         "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
+          "calcs": ["lastNotNull"],
           "fields": "",
           "values": false
         },
@@ -1266,11 +1255,9 @@
   ],
   "refresh": "5s",
   "schemaVersion": 39,
-  "tags": [
-    "back2basics",
-    "kubernetes",
-    "voting-app"
-  ],
+  "title": "Amazon EKS Workshop: Voting App Dashboard",
+  "description": "Amazon EKS Workshop by Romar Cablao",
+  "tags": ["workshop", "kubernetes", "voting-app"],
   "templating": {
     "list": []
   },
@@ -1281,7 +1268,6 @@
   "timeRangeUpdatedDuringEditOrView": false,
   "timepicker": {},
   "timezone": "",
-  "title": "Back2Basics: Voting App Dashboard",
   "version": 1,
   "weekStart": ""
 }

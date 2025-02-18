@@ -1,8 +1,8 @@
 commonAnnotations:
-  note: "Back2Basics: A Series"
+  note: "Amazon EKS Workshop"
 
 resources:
   - ../../base
 
 patches:
-- path: deployment-patch.yaml
+  - path: deployment-patch.yaml

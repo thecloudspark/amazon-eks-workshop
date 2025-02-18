@@ -17,7 +17,7 @@ variable "default_tags" {
 variable "cluster_name" {
   description = "Name of the EKS cluster"
   type        = string
-  default     = "my-cluster"
+  default     = "eks-workshop"
 }
 
 variable "region" {
@@ -29,7 +29,7 @@ variable "region" {
 variable "cluster_version" {
   description = "Version of the EKS cluster"
   type        = string
-  default     = "1.30"
+  default     = "1.32"
 }
 
 variable "vpc_cidr" {
